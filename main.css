@@ -1,0 +1,124 @@
+@import url(css/fonts.css);
+body {
+  background: #f8f8fe;
+}
+
+#container {
+  width: 100%;
+  max-width: 100vw;
+  overflow: auto;
+  margin: 0;
+  padding: 0; 
+}
+
+#daw-header {
+  background: transparent;
+  background: url("../images/background3.jpg");
+  background-size: 100% 200% !important;
+  background-position: 0 -50px;
+  width: 100%;
+  margin: 0;
+  padding: 0 1em;
+  overflow: auto;
+  text-align: center;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none; }
+
+#daw-title {
+  /* background: -moz-linear-gradient(bottom, #f0f8f8, transparent); */
+  /* background: -webkit-linear-gradient(bottom, #f0f8f8, transparent); */
+  margin: 0 1em;
+  padding: 0.25em;
+  width: auto;
+  font-size: 5em;
+  font-family: 'Kaushan Script'; }
+
+#daw-subtitle {
+  margin: 0.75em;
+  font-family: 'EB Garamond', serif;
+  font-size: 2.5em;
+  color: #024874;
+  /* background: rgba(220, 220, 220, 0.45);  */ }
+
+#daw-body {
+  background: transparent;
+  background: -moz-linear-gradient(right, #fffdec, transparent);
+  background: -webkit-linear-gradient(right, #fffdec, transparent);
+  padding: 0 1em;
+  width: 100%;
+  min-height: 100vh;
+  overflow: auto;
+  clear: both;
+  display: flex;
+  flex-direction: row;
+  border-top: 4px solid #a8d7c6; }
+
+#daw-content article {
+  margin: 0 1rem;
+  text-align: left; }
+
+#daw-decor {
+  display: none;
+  background-color: transparent;
+  background-size: 200px auto !important;
+  background-position: top left !important;
+  background-repeat: no-repeat !important;
+  position: sticky;
+  min-height: 42em; }
+
+#daw-links {
+  background: -moz-linear-gradient(right, #e8f8fe, transparent);
+  background: -webkit-linear-gradient(right, #e8f8fe, transparent);
+  width: 20%;
+  width: 20vw;
+  min-width: 350px;
+  height: auto;
+  border-right: 4px solid #a8d7c6;
+  padding: 2em 2.5em 2em .5em;
+  text-align: left;
+  font-family: 'Josefin Sans';
+  font-size: 1.6em;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none; }
+
+#daw-content {
+  padding: 2em 3em;
+  min-width: 12em;
+  width: auto;
+  /* float: center; */
+  font-family: 'EB Garamond', serif; }
+
+article {
+  font-size: 2em;
+  padding: 1.5em;
+  text-align: center;
+  width: auto; }
+
+li {
+  font-size: 1.2em;
+  list-style-type: circle; }
+
+li a {
+  color: #506278; }
+
+.adisti-page .header {
+  display: flex;
+  vertical-align: top; }
+  .adisti-page .header img {
+    margin: 0 2rem 2rem 0;
+    width: auto;
+    height: 100%; }
+  .adisti-page .header p {
+    margin-top: 0; }
+.adisti-page .adisti-gallery {
+  display: flex;
+  flex-wrap: wrap; }
+  .adisti-page .adisti-gallery img {
+    width: auto;
+    height: 100%;
+    max-width: 500px;
+    margin: 0 1rem 1rem 0; }
