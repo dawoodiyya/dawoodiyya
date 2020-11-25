@@ -1,25 +1,26 @@
 @import url(css/fonts.css);
 body {
-  background: #f8f8fe;
-}
-
-#container {
-  width: 100%;
-  max-width: 100vw;
-  overflow: auto;
+  background: #fefefe;
   margin: 0;
   padding: 0;
 }
 
-#daw-header {
+.container {
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.daw-header {
   background: #fefefe;
   /* background: url("../images/background3.jpg"); */
   /* background-size: 100% 200% !important; */
   /* background-position: 0 -50px; */
-  width: 100%;
+  width: auto;
+  max-width: 100vw;
   margin: 0;
   padding: 0 1em;
-  overflow: auto;
   text-align: center;
   user-select: none;
   -moz-user-select: none;
@@ -27,41 +28,38 @@ body {
   -ms-user-select: none;
 }
 
-#daw-title {
-  /* background: -moz-linear-gradient(bottom, #f0f8f8, transparent); */
-  /* background: -webkit-linear-gradient(bottom, #f0f8f8, transparent); */
+.daw-title {
+  /* background: -moz-linear-gradient(top, #f0f8f8, transparent); */
+  /* background: -webkit-linear-gradient(top, #f0f8f8, transparent); */
   margin: 0 auto;
   padding: 0.25em;
   width: auto;
   font-size: 3em;
   font-family: 'Kaushan Script'; }
 
-#daw-subtitle {
+.daw-subtitle {
   margin: 0.75em auto;
   font-family: 'EB Garamond', serif;
   font-size: 2em;
   color: #024874;
   /* background: rgba(220, 220, 220, 0.45);  */ }
 
-#daw-body {
+.daw-body {
+  display: flex;
+  flex-direction: column;
   background: transparent;
   background: -moz-linear-gradient(right, #fffdec, transparent);
   background: -webkit-linear-gradient(right, #fffdec, transparent);
-  padding: 0 1em;
-  width: 100%;
-  min-height: 100vh;
-  overflow: auto;
-  clear: both;
-  display: flex;
-  flex-direction: row;
-  border-top: 4px solid #a8d7c6;
+  background: linear-gradient(right, #fffdec, transparent);
+  margin: 0;
+  margin-top: 1rem;
+  padding: 0 3rem;
+  width: auto;
+  /* max-width: 100vw; */
+  /* border-top: 4px solid #a8d7c6; */
 }
 
-#daw-content article {
-  margin: 0 1rem;
-  text-align: left; }
-
-#daw-decor {
+.daw-decor {
   display: none;
   background-color: transparent;
   background-size: 200px auto !important;
@@ -70,15 +68,14 @@ body {
   position: sticky;
   min-height: 42em; }
 
-#daw-links {
-  background: -moz-linear-gradient(right, #e8f8fe, transparent);
-  background: -webkit-linear-gradient(right, #e8f8fe, transparent);
-  width: 20%;
-  width: 15vw;
-  min-width: 10em;
+.daw-links {
+  background: -moz-linear-gradient(top, #e8f8fe, transparent);
+  background: -webkit-linear-gradient(top, #e8f8fe, transparent);
+  background: linear-gradient(top, #e8f8fe, transparent);
+  width: auto;
   height: auto;
-  border-right: 4px solid #a8d7c6;
-  padding: 2em 2.5em 2em .5em;
+  /* border-right: 4px solid #a8d7c6; */
+  padding: 2em 2.5em 2em 2.5em;
   text-align: left;
   font-family: 'Josefin Sans';
   font-size: 1.6em;
@@ -87,19 +84,30 @@ body {
   -webkit-user-select: none;
   -ms-user-select: none; }
 
-#daw-content {
-  padding: 1em 3em;
-  min-width: 12em;
-  width: auto;
+.daw-content {
+  /* width: 100%; */
+  margin: 0;
+  padding: 0;
+  padding-bottom: 10em;
   font-family: sans-serif;
   /* font-family: 'EB Garamond', serif; */
 }
 
 article {
-  font-size: 2em;
-  padding: 0 1.5em;
-  text-align: center;
-  width: auto; }
+  font-size: 1.5rem;
+  /* margin-left: 3rem; */
+  padding: 0;
+  text-align: left;
+  /* width: auto; */
+  max-width: 55em;
+}
+article div {
+  word-break: normal;
+  line-break: normal;
+  /* width: 100%; */
+  /* max-width: 90vw; */
+  margin-bottom: 1rem;
+}
 
 li {
   font-size: 1.2em;
@@ -133,29 +141,20 @@ li a {
 
 
 @media only screen and (max-width: 700px) {
-  #daw-title {
+  .daw-title {
     margin: 0 auto;
     padding: 0;
     font-size: 2rem;
     text-align: center;
   }
-  #daw-subtitle {
+  .daw-subtitle {
     font-size: 1rem;
     padding: 0;
   }
-  #daw-body {
-    flex-direction: column;
-    padding: 0.25rem;
-  }
-  #daw-links {
-    width: 100%;
-    min-width: 10em;
-  }
-  #daw-content {
+  .daw-content {
     padding: 0.25rem;
   }
   article {
-    font-size: 1em;
-    padding: 0.5em;
+    font-size: 1.5em;
   }
 }
