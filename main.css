@@ -33,13 +33,13 @@ body {
   margin: 0 auto;
   padding: 0.25em;
   width: auto;
-  font-size: 5em;
+  font-size: 3em;
   font-family: 'Kaushan Script'; }
 
 #daw-subtitle {
   margin: 0.75em auto;
   font-family: 'EB Garamond', serif;
-  font-size: 2.5em;
+  font-size: 2em;
   color: #024874;
   /* background: rgba(220, 220, 220, 0.45);  */ }
 
@@ -54,7 +54,8 @@ body {
   clear: both;
   display: flex;
   flex-direction: row;
-  border-top: 4px solid #a8d7c6; }
+  border-top: 4px solid #a8d7c6;
+}
 
 #daw-content article {
   margin: 0 1rem;
@@ -87,11 +88,12 @@ body {
   -ms-user-select: none; }
 
 #daw-content {
-  padding: 2em 3em;
+  padding: 1em 3em;
   min-width: 12em;
   width: auto;
-  /* float: center; */
-  font-family: 'EB Garamond', serif; }
+  font-family: sans-serif;
+  /* font-family: 'EB Garamond', serif; */
+}
 
 article {
   font-size: 2em;
@@ -105,6 +107,11 @@ li {
 
 li a {
   color: #506278; }
+
+.index-page {
+  font-family: sans-serif;
+  line-height: 1.5;
+}
 
 .adisti-page .header {
   display: flex;
@@ -123,3 +130,32 @@ li a {
     height: 100%;
     max-width: 500px;
     margin: 0 1rem 1rem 0; }
+
+
+@media only screen and (max-width: 700px) {
+  #daw-title {
+    margin: 0 auto;
+    padding: 0;
+    font-size: 2rem;
+    text-align: center;
+  }
+  #daw-subtitle {
+    font-size: 1rem;
+    padding: 0;
+  }
+  #daw-body {
+    flex-direction: column;
+    padding: 0.25rem;
+  }
+  #daw-links {
+    width: 100%;
+    min-width: 10em;
+  }
+  #daw-content {
+    padding: 0.25rem;
+  }
+  article {
+    font-size: 1em;
+    padding: 0.5em;
+  }
+}
