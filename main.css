@@ -8,14 +8,14 @@ body {
   max-width: 100vw;
   overflow: auto;
   margin: 0;
-  padding: 0; 
+  padding: 0;
 }
 
 #daw-header {
-  background: transparent;
-  background: url("../images/background3.jpg");
-  background-size: 100% 200% !important;
-  background-position: 0 -50px;
+  background: #fefefe;
+  /* background: url("../images/background3.jpg"); */
+  /* background-size: 100% 200% !important; */
+  /* background-position: 0 -50px; */
   width: 100%;
   margin: 0;
   padding: 0 1em;
@@ -24,19 +24,20 @@ body {
   user-select: none;
   -moz-user-select: none;
   -webkit-user-select: none;
-  -ms-user-select: none; }
+  -ms-user-select: none;
+}
 
 #daw-title {
   /* background: -moz-linear-gradient(bottom, #f0f8f8, transparent); */
   /* background: -webkit-linear-gradient(bottom, #f0f8f8, transparent); */
-  margin: 0 1em;
+  margin: 0 auto;
   padding: 0.25em;
   width: auto;
   font-size: 5em;
   font-family: 'Kaushan Script'; }
 
 #daw-subtitle {
-  margin: 0.75em;
+  margin: 0.75em auto;
   font-family: 'EB Garamond', serif;
   font-size: 2.5em;
   color: #024874;
@@ -72,8 +73,8 @@ body {
   background: -moz-linear-gradient(right, #e8f8fe, transparent);
   background: -webkit-linear-gradient(right, #e8f8fe, transparent);
   width: 20%;
-  width: 20vw;
-  min-width: 350px;
+  width: 15vw;
+  min-width: 10em;
   height: auto;
   border-right: 4px solid #a8d7c6;
   padding: 2em 2.5em 2em .5em;

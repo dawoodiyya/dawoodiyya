@@ -2,20 +2,20 @@
   font-family: 'EB Garamond';
   font-style: normal;
   font-weight: 400;
-  src: local('EB Garamond'), local('EBGaramond'), url(fonts/EB+Garamond.ttf), url(https://fonts.gstatic.com/s/ebgaramond/v7/kYZt1bJ8UsGAPRGnkXPeFZ0EAVxt0G0biEntp43Qt6E.ttf) format('truetype');
+  src: local('EB Garamond'), local('EBGaramond'), url(fonts/EB+Garamond.ttf) format('truetype');
 }
 
 @font-face {
   font-family: 'Kaushan Script';
   font-style: normal;
   font-weight: 400;
-  src: local('Kaushan Script'), local('KaushanScript-Regular'), url(fonts/KaushanScript.ttf),  url(https://fonts.gstatic.com/s/kaushanscript/v5/qx1LSqts-NtiKcLw4N03IC5FJMZltoAAwO2fP7iHu2o.ttf) format('truetype');
+  src: local('Kaushan Script'), local('KaushanScript-Regular'), url(fonts/KaushanScript.ttf) format('truetype');
 }
 
 @font-face {
   font-family: 'Josefin Sans';
   font-style: normal;
   font-weight: 400;
-  src: local('Josefin Sans'), local('JosefinSans'), url(fonts/Josefin+Sans.ttf), url(http://fonts.gstatic.com/s/josefinsans/v9/xgzbb53t8j-Mo-vYa23n5onF5uFdDttMLvmWuJdhhgs.ttf) format('truetype');
+  src: local('Josefin Sans'), local('JosefinSans'), url(fonts/Josefin+Sans.ttf) format('truetype');
 }
 
