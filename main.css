@@ -29,20 +29,19 @@ body {
 }
 
 .daw-title {
-  /* background: -moz-linear-gradient(top, #f0f8f8, transparent); */
-  /* background: -webkit-linear-gradient(top, #f0f8f8, transparent); */
   margin: 0 auto;
   padding: 0.25em;
   width: auto;
   font-size: 3em;
-  font-family: 'Kaushan Script'; }
+  font-family: 'Kaushan Script';
+}
 
 .daw-subtitle {
   margin: 0.75em auto;
   font-family: 'EB Garamond', serif;
   font-size: 2em;
   color: #024874;
-  /* background: rgba(220, 220, 220, 0.45);  */ }
+}
 
 .daw-body {
   display: flex;
@@ -55,8 +54,6 @@ body {
   margin-top: 1rem;
   padding: 0 3rem;
   width: auto;
-  /* max-width: 100vw; */
-  /* border-top: 4px solid #a8d7c6; */
 }
 
 .daw-decor {
@@ -66,7 +63,8 @@ body {
   background-position: top left !important;
   background-repeat: no-repeat !important;
   position: sticky;
-  min-height: 42em; }
+  min-height: 42em;
+}
 
 .daw-links {
   background: -moz-linear-gradient(top, #e8f8fe, transparent);
@@ -74,7 +72,6 @@ body {
   background: linear-gradient(top, #e8f8fe, transparent);
   width: auto;
   height: auto;
-  /* border-right: 4px solid #a8d7c6; */
   padding: 2em 2.5em 2em 2.5em;
   text-align: left;
   font-family: 'Josefin Sans';
@@ -92,36 +89,32 @@ body {
 }
 
 .daw-content {
-  /* width: 100%; */
   margin: 0;
   padding: 0;
   padding-bottom: 10em;
   font-family: sans-serif;
-  /* font-family: 'EB Garamond', serif; */
 }
 
 article {
   font-size: 1.5rem;
-  /* margin-left: 3rem; */
   padding: 0;
   text-align: left;
-  /* width: auto; */
-  max-width: 55em;
+  max-width: 42em;
 }
 article div {
   word-break: normal;
   line-break: normal;
-  /* width: 100%; */
-  /* max-width: 90vw; */
   margin-bottom: 1rem;
 }
 
 li {
   font-size: 1.2em;
-  list-style-type: circle; }
+  list-style-type: circle;
+}
 
 li a {
-  color: #506278; }
+  color: #506278;
+}
 
 .index-page {
   font-family: sans-serif;
@@ -130,21 +123,26 @@ li a {
 
 .adisti-page .header {
   display: flex;
-  vertical-align: top; }
-  .adisti-page .header img {
-    margin: 0 2rem 2rem 0;
-    width: auto;
-    height: 100%; }
-  .adisti-page .header p {
-    margin-top: 0; }
+  vertical-align: top;
+}
+.adisti-page .header img {
+  margin: 0 2rem 2rem 0;
+  width: auto;
+  height: 100%;
+}
+.adisti-page .header p {
+  margin-top: 0;
+}
 .adisti-page .adisti-gallery {
   display: flex;
-  flex-wrap: wrap; }
-  .adisti-page .adisti-gallery img {
-    width: auto;
-    height: 100%;
-    max-width: 500px;
-    margin: 0 1rem 1rem 0; }
+  flex-wrap: wrap;
+}
+.adisti-page .adisti-gallery img {
+  width: auto;
+  height: 100%;
+  max-width: 500px;
+  margin: 0 1rem 1rem 0;
+}
 
 .sema-page h1,
 .sema-page h2 {
